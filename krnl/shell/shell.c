@@ -4,6 +4,7 @@
 #include "../fs/vfs.h"
 #include "../string/string.h"
 #include "../process/task.h"
+#include "string/string.h"
 
 void init_shell() {
     while (1) {

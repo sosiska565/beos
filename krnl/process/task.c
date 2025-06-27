@@ -2,6 +2,7 @@
 #include "../memory/memory.h"
 #include "../string/string.h"
 #include "../utils/utils.h"
+#include "memory/pmm.h"
 
 extern page_directory_t *kernel_directory;
 extern page_directory_t *current_directory;

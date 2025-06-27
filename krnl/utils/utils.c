@@ -1,5 +1,6 @@
 #include "utils.h"
 #include "../string/string.h"
+#include "vga/vga.h"
 
 void panic(const char* message, const char* file, int line) {
     asm volatile("cli");

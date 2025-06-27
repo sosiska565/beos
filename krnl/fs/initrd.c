@@ -1,6 +1,7 @@
 #include "initrd.h"
 #include "../memory/memory.h"
 #include "../string/string.h"
+#include "string/string.h"
 
 initrd_header_t *initrd_header;
 initrd_file_header_t *file_headers;

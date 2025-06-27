@@ -3,6 +3,7 @@
 #include "vmm.h"
 #include "pmm.h"
 #include "memory.h"
+#include "utils/utils.h"
 
 extern page_directory_t* kernel_directory;
 heap_t *kheap = 0;
